@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "IBM";
+  src: url(./fonts/IBM_BIOS.woff) format("woff"); 
+  font-weight: normal;
+  font-style: normal;
 }
 
 @layer base {

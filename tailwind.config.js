@@ -67,7 +67,10 @@ module.exports = {
   					transform: 'translateY(0)'
   				}
   			}
-  		}
+  		},
+		fontFamily: {
+			custom: ['"IBM"', 'sans-serif']
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
